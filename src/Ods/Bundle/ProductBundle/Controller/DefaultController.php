@@ -11,7 +11,6 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/hello1/{name}")
-     * @Secure(roles="ROLE_ADMIN")
      * @Template()
      */
     public function indexAction($name)
